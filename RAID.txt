@@ -1,0 +1,3447 @@
+{
+  "name": "raid",
+  "permissions": "ADMINISTRATOR",
+  "restriction": "4",
+  "_id": "gCPGH",
+  "actions": [
+    {
+      "message": "0",
+      "varName": "",
+      "info": "0",
+      "ParamN": "1",
+      "separator": "",
+      "storage": "1",
+      "varName2": "serverid",
+      "count": "",
+      "name": "Store Message Params"
+    },
+    {
+      "condition": "0",
+      "comparison": "0",
+      "value": "1",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "2",
+      "iffalseVal": "346",
+      "name": "Check Parameters"
+    },
+    {
+      "info": "0",
+      "find": "${tempVars(\"serverid\")}",
+      "storage": "1",
+      "varName": "server",
+      "name": "Find Server"
+    },
+    {
+      "server": "1",
+      "varName": "server",
+      "name": "Change Server"
+    },
+    {
+      "storage": "0",
+      "varName": "",
+      "reason": "",
+      "name": "Delete Message"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "**RAIDING ${tempVars(\"server\")}**",
+      "storage": "0",
+      "varName2": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Send Message"
+    },
+    {
+      "server": "1",
+      "varName": "server",
+      "serverName": "ENJOY CLEANING",
+      "reason": "",
+      "name": "Set Server Name"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "fnLEAWSJCuwpbaEYwyF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "IWPjXzwhsLbTeEg",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "okScDfQidLeGF",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channelName": "FybrAdEeRMjQgCm",
+      "topic": "",
+      "position": "",
+      "storage": "0",
+      "varName": "",
+      "categoryID": "",
+      "reason": "",
+      "name": "Create Text Channel"
+    },
+    {
+      "channel": "4",
+      "varName": "",
+      "message": "**This server has been raided**",
+      "storage": "1",
+      "varName2": "message",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Send Message"
+    },
+    {
+      "storage": "1",
+      "varName": "message",
+      "emoji": "4",
+      "varName2": "😈",
+      "varName3": "",
+      "name": "Add Reaction"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "**SERVER HAS FINISHED BEING RAIDED**",
+      "storage": "0",
+      "varName2": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Send Message"
+    },
+    {
+      "time": "15",
+      "measurement": "1",
+      "name": "Wait"
+    },
+    {
+      "server": "1",
+      "varName": "server",
+      "name": "Leave Server"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "info": "17",
+      "storage": "1",
+      "varName2": "names",
+      "name": "Store Bot Client Info"
+    },
+    {
+      "info": "18",
+      "storage": "1",
+      "varName2": "id",
+      "name": "Store Bot Client Info"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "**Please instert a server ID you want to raid**\n\nE.G **?raid \"Serverid\"**\n\n(Without **\"**)\n\nAll Current servers that the bot is in is stated below with the server ID's under them.\n\n**Servers**: ${tempVars(\"names\")}\n**ID's**: ${tempVars(\"id\")}",
+      "storage": "0",
+      "varName2": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Send Message"
+    }
+  ]
+}
